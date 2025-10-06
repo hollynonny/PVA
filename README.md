@@ -1,4 +1,2 @@
 # PVA
-Something
-Tomas Jaukl je negr!!!
-machichim je niggggggaaaa!
+Something                                                                                                                                                                                      Tomas Jaukl je negr!!!
