@@ -6,5 +6,6 @@ namespace PVAPraceVeDvojicich
         {
             InitializeComponent();
         }
+        // Maksim je peknej negr
     }
 }
