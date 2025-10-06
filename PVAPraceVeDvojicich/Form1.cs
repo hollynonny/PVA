@@ -7,5 +7,6 @@ namespace PVAPraceVeDvojicich
             InitializeComponent();
         }
         // Nejsem rasista
+        // HAHAHA
     }
 }
