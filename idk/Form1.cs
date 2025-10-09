@@ -18,9 +18,9 @@ namespace idk
 
         private void InputBox_TextChanged(object sender, EventArgs e)
         {
-            if(sender.Text != null)
+            if(InputBox.Text != null)
             {
-                content = sender.Text;
+                content = InputBox.Text;
             }
         }
         // + trida ShowOnSmoothBar()
