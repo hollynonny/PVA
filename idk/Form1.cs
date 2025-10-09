@@ -9,6 +9,7 @@ namespace idk
         public Form1()
         {
             InitializeComponent();
+            suck_a_nigga_dick = new MyMath();
         }
 
         private void CalculateButton_Click(object sender, EventArgs e)

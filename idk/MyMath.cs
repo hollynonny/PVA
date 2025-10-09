@@ -4,12 +4,12 @@ namespace idk
 {
     public class MyMath
     {
-        DoMagicMath(string content)
+        public void DoMagicMath(string content)
         {
             content = content.Trim();
-            Expression e = Expression(content);
-            Expression result = e.Evaluate();
-            MessageBox.Show("Result: " + result.ToString());
+            Expression e = new Expression(content);
+            object result = e.Evaluate();
+            MessageBox.Show("Result: " + result);
         }
     }
 }
