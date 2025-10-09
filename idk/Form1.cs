@@ -11,11 +11,13 @@ namespace idk
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
-
+            DoMagicMath();
         }
 
-        // + trida CalculateButton_OnClick()
-        // + trida DoMagicMath()
+        private void DoMagicMath()
+        {
+            
+        }
         // + trida ShowOnSmoothBar()
 
     }
