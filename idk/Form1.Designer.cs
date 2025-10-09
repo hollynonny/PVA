@@ -28,33 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            button1 = new Button();
+            InputBox = new TextBox();
+            CalculateButton = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // InputBox
             // 
-            textBox1.Location = new Point(73, 31);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(505, 27);
-            textBox1.TabIndex = 0;
+            InputBox.Location = new Point(221, 86);
+            InputBox.Margin = new Padding(4, 4, 4, 4);
+            InputBox.Name = "InputBox";
+            InputBox.Size = new Size(630, 31);
+            InputBox.TabIndex = 0;
             // 
-            // button1
+            // CalculateButton
             // 
-            button1.Location = new Point(640, 29);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 1;
-            button1.Text = "OK";
-            button1.UseVisualStyleBackColor = true;
+            CalculateButton.Location = new Point(480, 134);
+            CalculateButton.Margin = new Padding(4, 4, 4, 4);
+            CalculateButton.Name = "CalculateButton";
+            CalculateButton.Size = new Size(118, 36);
+            CalculateButton.TabIndex = 1;
+            CalculateButton.Text = "Calculate";
+            CalculateButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(882, 453);
-            Controls.Add(button1);
-            Controls.Add(textBox1);
+            ClientSize = new Size(1102, 566);
+            Controls.Add(CalculateButton);
+            Controls.Add(InputBox);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -63,7 +66,7 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private Button button1;
+        private TextBox InputBox;
+        private Button CalculateButton;
     }
 }
