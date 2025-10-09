@@ -35,7 +35,7 @@
             // InputBox
             // 
             InputBox.Location = new Point(221, 86);
-            InputBox.Margin = new Padding(4, 4, 4, 4);
+            InputBox.Margin = new Padding(4);
             InputBox.Name = "InputBox";
             InputBox.Size = new Size(630, 31);
             InputBox.TabIndex = 0;
@@ -43,12 +43,13 @@
             // CalculateButton
             // 
             CalculateButton.Location = new Point(480, 134);
-            CalculateButton.Margin = new Padding(4, 4, 4, 4);
+            CalculateButton.Margin = new Padding(4);
             CalculateButton.Name = "CalculateButton";
             CalculateButton.Size = new Size(118, 36);
             CalculateButton.TabIndex = 1;
             CalculateButton.Text = "Calculate";
             CalculateButton.UseVisualStyleBackColor = true;
+            CalculateButton.Click += CalculateButton_Click;
             // 
             // Form1
             // 
@@ -57,7 +58,7 @@
             ClientSize = new Size(1102, 566);
             Controls.Add(CalculateButton);
             Controls.Add(InputBox);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
