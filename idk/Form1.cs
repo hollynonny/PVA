@@ -2,7 +2,9 @@ namespace idk
 {
     public partial class Form1 : Form
     {
+        private MyMath suck_a_nigga_dick;        
 
+        private string content;
 
         public Form1()
         {
@@ -10,18 +12,16 @@ namespace idk
         }
 
         private void CalculateButton_Click(object sender, EventArgs e)
-        {
-            DoMagicMath();
-        }
-
-        private void DoMagicMath()
-        {
-
+        {   
+            suck_a_nigga_dick.DoMagicMath(content);
         }
 
         private void InputBox_TextChanged(object sender, EventArgs e)
         {
-
+            if(sender.Text != null)
+            {
+                content = sender.Text;
+            }
         }
         // + trida ShowOnSmoothBar()
 
