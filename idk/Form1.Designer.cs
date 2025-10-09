@@ -39,6 +39,7 @@
             InputBox.Name = "InputBox";
             InputBox.Size = new Size(630, 31);
             InputBox.TabIndex = 0;
+            InputBox.TextChanged += InputBox_TextChanged;
             // 
             // CalculateButton
             // 

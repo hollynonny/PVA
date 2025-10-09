@@ -16,7 +16,12 @@ namespace idk
 
         private void DoMagicMath()
         {
-            
+
+        }
+
+        private void InputBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
         // + trida ShowOnSmoothBar()
 
