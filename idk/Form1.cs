@@ -70,7 +70,7 @@ namespace idk
 
         private double CheckIfDouble(object result)
         {
-            if (result.GetType() == typeof(double))
+            if (result.GetType() == typeof(double) || result.GetType() == typeof(int))
             {
                 return (double)result;
             }
