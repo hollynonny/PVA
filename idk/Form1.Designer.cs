@@ -30,119 +30,179 @@
         {
             InputBox = new TextBox();
             CalculateButton = new Button();
-            panel1 = new Panel();
-            panel2 = new Panel();
-            panel3 = new Panel();
-            panel4 = new Panel();
-            panel5 = new Panel();
-            panel6 = new Panel();
-            label1 = new Label();
+            bar = new Panel();
+            mini_three = new Panel();
+            mini_four = new Panel();
+            mini_five = new Panel();
+            mini_one = new Panel();
+            mini_two = new Panel();
+            text_one = new Label();
+            text_two = new Label();
+            text_three = new Label();
+            text_four = new Label();
+            text_five = new Label();
             SuspendLayout();
             // 
             // InputBox
             // 
-            InputBox.Location = new Point(221, 86);
-            InputBox.Margin = new Padding(4);
+            InputBox.Location = new Point(155, 52);
+            InputBox.Margin = new Padding(3, 2, 3, 2);
             InputBox.Name = "InputBox";
-            InputBox.Size = new Size(630, 31);
+            InputBox.Size = new Size(442, 23);
             InputBox.TabIndex = 0;
             InputBox.TextChanged += InputBox_TextChanged;
             // 
             // CalculateButton
             // 
-            CalculateButton.Location = new Point(480, 134);
-            CalculateButton.Margin = new Padding(4);
+            CalculateButton.Location = new Point(336, 80);
+            CalculateButton.Margin = new Padding(3, 2, 3, 2);
             CalculateButton.Name = "CalculateButton";
-            CalculateButton.Size = new Size(118, 36);
+            CalculateButton.Size = new Size(83, 22);
             CalculateButton.TabIndex = 1;
             CalculateButton.Text = "Calculate";
             CalculateButton.UseVisualStyleBackColor = true;
             CalculateButton.Click += CalculateButton_Click;
             // 
-            // panel1
+            // bar
             // 
-            panel1.BackColor = SystemColors.ActiveCaptionText;
-            panel1.Enabled = false;
-            panel1.Location = new Point(55, 347);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1000, 11);
-            panel1.TabIndex = 2;
-            panel1.Visible = false;
+            bar.BackColor = SystemColors.ActiveCaptionText;
+            bar.Enabled = false;
+            bar.Location = new Point(38, 208);
+            bar.Margin = new Padding(2);
+            bar.Name = "bar";
+            bar.Size = new Size(700, 7);
+            bar.TabIndex = 2;
+            bar.Visible = false;
             // 
-            // panel2
+            // mini_three
             // 
-            panel2.BackColor = SystemColors.ActiveCaption;
-            panel2.Enabled = false;
-            panel2.Location = new Point(534, 324);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(10, 63);
-            panel2.TabIndex = 3;
-            panel2.Visible = false;
+            mini_three.BackColor = SystemColors.ActiveCaption;
+            mini_three.Enabled = false;
+            mini_three.Location = new Point(374, 194);
+            mini_three.Margin = new Padding(2);
+            mini_three.Name = "mini_three";
+            mini_three.Size = new Size(7, 38);
+            mini_three.TabIndex = 3;
+            mini_three.Visible = false;
             // 
-            // panel3
+            // mini_four
             // 
-            panel3.BackColor = SystemColors.ActiveCaption;
-            panel3.Enabled = false;
-            panel3.Location = new Point(841, 324);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(10, 63);
-            panel3.TabIndex = 4;
-            panel3.Visible = false;
+            mini_four.BackColor = SystemColors.ActiveCaption;
+            mini_four.Enabled = false;
+            mini_four.Location = new Point(589, 194);
+            mini_four.Margin = new Padding(2);
+            mini_four.Name = "mini_four";
+            mini_four.Size = new Size(7, 38);
+            mini_four.TabIndex = 4;
+            mini_four.Visible = false;
             // 
-            // panel4
+            // mini_five
             // 
-            panel4.BackColor = SystemColors.ActiveCaption;
-            panel4.Enabled = false;
-            panel4.Location = new Point(1045, 324);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(10, 63);
-            panel4.TabIndex = 4;
-            panel4.Visible = false;
+            mini_five.BackColor = SystemColors.ActiveCaption;
+            mini_five.Enabled = false;
+            mini_five.Location = new Point(732, 194);
+            mini_five.Margin = new Padding(2);
+            mini_five.Name = "mini_five";
+            mini_five.Size = new Size(7, 38);
+            mini_five.TabIndex = 4;
+            mini_five.Visible = false;
             // 
-            // panel5
+            // mini_one
             // 
-            panel5.BackColor = SystemColors.ActiveCaption;
-            panel5.Enabled = false;
-            panel5.Location = new Point(55, 324);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(10, 63);
-            panel5.TabIndex = 5;
-            panel5.Visible = false;
+            mini_one.BackColor = SystemColors.ActiveCaption;
+            mini_one.Enabled = false;
+            mini_one.Location = new Point(38, 194);
+            mini_one.Margin = new Padding(2);
+            mini_one.Name = "mini_one";
+            mini_one.Size = new Size(7, 38);
+            mini_one.TabIndex = 5;
+            mini_one.Visible = false;
             // 
-            // panel6
+            // mini_two
             // 
-            panel6.BackColor = SystemColors.ActiveCaption;
-            panel6.Enabled = false;
-            panel6.Location = new Point(221, 324);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(10, 63);
-            panel6.TabIndex = 4;
-            panel6.Visible = false;
+            mini_two.BackColor = SystemColors.ActiveCaption;
+            mini_two.Enabled = false;
+            mini_two.Location = new Point(155, 194);
+            mini_two.Margin = new Padding(2);
+            mini_two.Name = "mini_two";
+            mini_two.Size = new Size(7, 38);
+            mini_two.TabIndex = 4;
+            mini_two.Visible = false;
             // 
-            // label1
+            // text_one
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(528, 420);
-            label1.Name = "label1";
-            label1.Size = new Size(59, 25);
-            label1.TabIndex = 6;
-            label1.Text = "label1";
+            text_one.AutoSize = true;
+            text_one.Location = new Point(21, 247);
+            text_one.Margin = new Padding(2, 0, 2, 0);
+            text_one.Name = "text_one";
+            text_one.Size = new Size(38, 15);
+            text_one.TabIndex = 6;
+            text_one.Text = "label1";
+            text_one.Visible = false;
+            // 
+            // text_two
+            // 
+            text_two.AutoSize = true;
+            text_two.Location = new Point(136, 247);
+            text_two.Margin = new Padding(2, 0, 2, 0);
+            text_two.Name = "text_two";
+            text_two.Size = new Size(38, 15);
+            text_two.TabIndex = 7;
+            text_two.Text = "label1";
+            text_two.Visible = false;
+            // 
+            // text_three
+            // 
+            text_three.AutoSize = true;
+            text_three.Location = new Point(360, 247);
+            text_three.Margin = new Padding(2, 0, 2, 0);
+            text_three.Name = "text_three";
+            text_three.Size = new Size(38, 15);
+            text_three.TabIndex = 8;
+            text_three.Text = "label1";
+            text_three.Visible = false;
+            // 
+            // text_four
+            // 
+            text_four.AutoSize = true;
+            text_four.Location = new Point(573, 247);
+            text_four.Margin = new Padding(2, 0, 2, 0);
+            text_four.Name = "text_four";
+            text_four.Size = new Size(38, 15);
+            text_four.TabIndex = 9;
+            text_four.Text = "label1";
+            text_four.Visible = false;
+            // 
+            // text_five
+            // 
+            text_five.AutoSize = true;
+            text_five.Location = new Point(722, 247);
+            text_five.Margin = new Padding(2, 0, 2, 0);
+            text_five.Name = "text_five";
+            text_five.Size = new Size(38, 15);
+            text_five.TabIndex = 10;
+            text_five.Text = "label1";
+            text_five.Visible = false;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1102, 566);
-            Controls.Add(label1);
-            Controls.Add(panel6);
-            Controls.Add(panel5);
-            Controls.Add(panel4);
-            Controls.Add(panel3);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
+            ClientSize = new Size(771, 340);
+            Controls.Add(text_five);
+            Controls.Add(text_four);
+            Controls.Add(text_three);
+            Controls.Add(text_two);
+            Controls.Add(text_one);
+            Controls.Add(mini_two);
+            Controls.Add(mini_one);
+            Controls.Add(mini_five);
+            Controls.Add(mini_four);
+            Controls.Add(mini_three);
+            Controls.Add(bar);
             Controls.Add(CalculateButton);
             Controls.Add(InputBox);
-            Margin = new Padding(4);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -153,12 +213,16 @@
 
         private TextBox InputBox;
         private Button CalculateButton;
-        private Panel panel1;
-        private Panel panel2;
-        private Panel panel3;
-        private Panel panel4;
-        private Panel panel5;
-        private Panel panel6;
-        private Label label1;
+        private Panel bar;
+        private Panel mini_three;
+        private Panel mini_four;
+        private Panel mini_five;
+        private Panel mini_one;
+        private Panel mini_two;
+        private Label text_one;
+        private Label text_two;
+        private Label text_three;
+        private Label text_four;
+        private Label text_five;
     }
 }
