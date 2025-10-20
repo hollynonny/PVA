@@ -1,6 +1,7 @@
 # PVA
 
-![Alt text]([[https://bluemoji.io/cdn-proxy/646218c67da47160c64a84d5/66e99e6e25c7a6894e06bdc5_52.png](https://imageio.forbes.com/specials-images/imageserve/68f10e3830760aaae7d070f5/The-White-Rabbit-from-Alice-in-Wonderland--a-digital-painting-by-Luz-Tapia/0x0.jpg?format=jpg&crop=1179,786,x0,y385,safe&width=960](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuQt7xokVutELlNQi6ASVV_bdxqTrO0UtSVQ&s.png))
+![Pravidlo pravé ruky](https://media.discordapp.net/attachments/359677747653640193/763018897195794462/pravidlopraveruky.gif?ex=68f6d779&is=68f585f9&hm=636ca20a368a2d5ffded55c02f9b9f340ab057fe7a8d1974b2c38fc9b4f07233&)
+
 
 ![Alt text](https://bluemoji.io/cdn-proxy/646218c67da47160c64a84d5/66e99e6e25c7a6894e06bdc5_52.png)
 
